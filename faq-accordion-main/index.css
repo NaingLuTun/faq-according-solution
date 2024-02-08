@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&display=swap');
+
+:root {
+    --font-family: 'Work Sans', sans-serif;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #f9eeff;
+}
+h1{
+    font-size: 55px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    display: flex;
+}
+
+img {
+    padding: 0 20px 0 20px; 
+}
+
+button {
+    border: none;
+    background-color: white;
+}
+
+i {
+    color: #aa25ef;
+    font-size: 30px;
+}
+
+#whatIs {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    margin: 25px 0 25px 0;
+}
+
+#isFree{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    margin: 25px 0 25px 0;
+}
+
+#portfolio{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    margin: 25px 0 25px 0;
+}
+
+#stuck {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    margin: 25px 0 25px 0;
+}
+
+
+
+#whatIsAnswer {
+    display: none;
+    color: rgba(83, 83, 83, 0.644);
+    margin: 20px 20px 30px 20px;
+}
+
+#isFreeAnswer {
+    display: none;
+    color: rgba(83, 83, 83, 0.644);
+    margin: 20px 20px 30px 20px;
+}
+
+#portfolioAnswer{
+    display: none;
+    color: rgba(83, 83, 83, 0.644);
+    margin: 20px 20px 30px 20px;
+}
+
+#stuckAnswer {
+    display: none;
+    color: rgba(83, 83, 83, 0.644);
+    margin: 20px 20px 30px 20px;
+}
+
+hr{
+    border-color: rgba(233, 232, 232, 0.096);
+}
+
+#container {
+    border-radius: 10px;
+    padding: 30px 10px;
+    width: 590px;
+    text-align: left;
+    background-color: white;
+}
+
+@media (max-width:481px){
+    #container{
+        width: 300px;
+    }
+    body {
+        background-image: url(./assets/images/background-pattern-mobile.svg);
+    }
+}
